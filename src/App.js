@@ -84,7 +84,7 @@ console.log(state)
           </div>
           { loading ?
             <div style={{display: 'flex', justifyContent: 'center', margin: '150px',}}>
-            <Loader type="Oval" color="#00BFFF" height={80} width={80}/>
+            <Loader type="Oval" color="#00BFFF" height={110} width={110}/>
             </div> :
             <Table/>
           }

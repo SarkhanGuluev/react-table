@@ -1,0 +1,52 @@
+.table-container {
+  min-width: 1000px;
+}
+
+table {
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 0.9em;
+  font-family: sans-serif;
+  width: 100%;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+table thead tr {
+  background-color: #141414;
+  color: #ffffff;
+  text-align: left;
+}
+
+table th,
+table td {
+    padding: 12px 15px;
+    cursor: pointer;
+}
+
+table th:hover {
+    color: teal;
+}
+
+table tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+table tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+
+table tbody tr:last-of-type {
+  border-bottom: 2px solid #009879;
+}
+
+.input {
+  width: 300px;
+  padding-bottom: 10px;
+  border: none;
+  border-bottom: 1px solid #2e2e2e;
+  background-color: transparent;
+  outline: none;
+  transition: 0.3s;
+  letter-spacing: 1px;
+  font-size: 16px;
+}

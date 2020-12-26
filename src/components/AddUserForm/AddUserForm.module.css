@@ -1,0 +1,66 @@
+.add_form_overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.add_form {
+    position: fixed;
+    padding-top: 1rem;
+    width: 400px;
+    margin: 3rem;
+    box-shadow: 0 5px 16px rgba(0, 0, 0, 0.2);
+    background: #fff;
+    color: #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    line-height: 1.8;
+    color: #141414;
+    z-index: 100;
+    border-radius: 10px;
+}
+.add_form > div {
+     margin-bottom: 1rem;
+     display: flex;
+     flex-direction: column;
+     justify-content: start;
+ }
+
+
+ .add_form label {
+    font-size: 16px;
+    font-weight: bold;
+    margin-right: 1rem;
+}
+
+
+.add_form input {
+    width: 220px;
+    padding-bottom: 10px;
+    border: none;
+    border-bottom: 1px solid #e0e0e0;
+    background-color: transparent;
+    outline: none;
+    transition: 0.3s;
+    letter-spacing: 1px;
+    font-size: 16px;
+}
+
+.add_form_button {
+    width: 120px;
+    margin: 1rem;
+    padding: .5rem;
+    border-radius: 4px;
+    border: none;
+    background: #141414;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}

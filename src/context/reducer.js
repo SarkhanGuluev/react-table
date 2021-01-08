@@ -1,5 +1,5 @@
 
-export default function (state, action) {
+export default function Reducer (state, action) {
     switch (action.type) {
         case 'new_data':
             return {

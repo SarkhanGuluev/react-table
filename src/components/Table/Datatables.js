@@ -1,5 +1,4 @@
-import React, {useContext, useState} from 'react'
-import { Card } from './Card/Card'
+import React, {useContext} from 'react'
 import {Context} from '../../context/context'
 
 export const Datatables = ({data}) => {
@@ -35,7 +34,6 @@ export const Datatables = ({data}) => {
             </thead>
             <tbody>
                 { data.map((el, i) =>{
-                    let key = Math.floor(Math.random() * 100)
                     return (
                         <tr key={i} onClick={() => card.openCard(el)} style={{cursor: 'pointer',}}>
                             <td>{el.id}</td>

@@ -1,4 +1,4 @@
-import React, {useReducer, useContext} from 'react'
+import React, {useContext} from 'react'
 import styles from './Card.module.css'
 import {Context} from '../../../context/context'
 

@@ -1,4 +1,4 @@
-import React, {useState, useContext, useReducer} from 'react'
+import React, {useState, useContext} from 'react'
 import { Datatables } from './Datatables'
 import {Pagination} from '../Pagination/Pagination';
 import {Context} from '../../context/context'
@@ -7,7 +7,7 @@ import './Table.css'
 
 export const Table = () => {
 
-    const {state, dispatch} = useContext(Context)
+    const {state} = useContext(Context)
 
     const [currentPage, setCurrentPage] = useState(1)
     const [itemsPerPage, ] = useState(50)
